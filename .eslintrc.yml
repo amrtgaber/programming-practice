@@ -1,0 +1,28 @@
+env:
+    es6: true
+    node: true
+    mocha: true
+extends: 'eslint:recommended'
+rules:
+    comma-dangle: warn
+    curly: warn
+    indent: off
+    no-console: off
+    no-mixed-spaces-and-tabs: warn
+    no-unused-vars:
+        - warn
+        - args: none
+    no-var: warn
+    object-curly-spacing:
+        - warn
+        - always
+    quotes:
+        - warn
+        - single
+    semi:
+        - warn
+        - always
+    strict:
+        - error
+        - global
+    valid-jsdoc: off
