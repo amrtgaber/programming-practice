@@ -10,9 +10,9 @@
     "url": ""
   },
   "scripts": {
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha -- *.spec.js",
-    "lint": "eslint *.js",
-    "test": "mocha *.spec.js -R spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha -- src/**/*.spec.js -c",
+    "lint": "eslint src/**/*.js",
+    "test": "mocha src/**/*.spec.js -c",
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {},
