@@ -7,7 +7,7 @@
   "main": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:amrtgaber/programming-practice.git"
   },
   "scripts": {
     "cover": "istanbul cover node_modules/mocha/bin/_mocha -- src/**/*.spec.js -c",
