@@ -4,6 +4,12 @@ Practice and test programming problems.
 
 It's recommended to come up with the algorithm and write the code out by hand before implementing the solution.
 
+## Instructions
+
+1. Install [node](https://nodejs.org)
+2. `npm install`
+3. `npm test`
+
 ## Scripts
 
 ```bash
