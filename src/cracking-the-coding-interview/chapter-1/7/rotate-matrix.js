@@ -39,7 +39,7 @@ class rotateMatrix {
     inPlace(matrix) {
         let n = matrix.length;
 
-        // rotate each square starting from outermose rows and columns
+        // rotate each square starting from outermost rows and columns
         for( let row = 0; row < Math.floor(n / 2); row++ ) {
             let rowInverse = n - 1 - row;
 
