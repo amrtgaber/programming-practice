@@ -1,6 +1,7 @@
 # Programming Practice
 
-[![Build Status](https://travis-ci.org/amrtgaber/programming-practice.svg?branch=master)](https://travis-ci.org/amrtgaber/programming-practice) [ ![Codeship Status for amrtgaber/programming-practice](https://app.codeship.com/projects/2d04db70-c14f-0133-84a7-7a084011ffad/status?branch=master)](https://app.codeship.com/projects/137470)
+[![Build Status](https://travis-ci.org/amrtgaber/programming-practice.svg?branch=master)](https://travis-ci.org/amrtgaber/programming-practice) [ ![Codeship Status for amrtgaber/programming-practice](https://app.codeship.com/projects/2d04db70-c14f-0133-84a7-7a084011ffad/status?branch=master)](https://app.codeship.com/projects/137470) [![Dependency Status](https://gemnasium.com/badges/github.com/amrtgaber/programming-practice.svg)](https://gemnasium.com/github.com/amrtgaber/programming-practice)
+
 
 Practice and test programming problems.
 
