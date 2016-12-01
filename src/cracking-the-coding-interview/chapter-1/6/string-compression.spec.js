@@ -15,7 +15,7 @@ const testStrings = [
     ['abcccdddeeefff', 'a1b1c3d3e3f3']
 ];
 
-describe('Chapter 1.5: One Away', function() {
+describe('Chapter 1.6: String Compression', function() {
     methods.forEach( method => {
         describe(`${method}()`, function() {
             testStrings.forEach( pair => {

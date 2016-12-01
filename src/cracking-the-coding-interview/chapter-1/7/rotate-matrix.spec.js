@@ -34,7 +34,7 @@ const tests = [
     ]
 ];
 
-describe('Chapter 1.6: Rotate Matrix', function() {
+describe('Chapter 1.7: Rotate Matrix', function() {
     methods.forEach( method => {
         describe(`${method}()`, function() {
             tests.forEach( pair => {
