@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Given an image represented by an NxN matrix, where each pixel in the image is
  * 4 bytes, write a method to rotate the image by 90 degress. Can you do this in place?
@@ -39,7 +37,7 @@ class rotateMatrix {
     inPlace(matrix) {
         let n = matrix.length;
 
-        // rotate each square starting from outermost rows and columns
+        // rotate each square starting from outermose rows and columns
         for( let row = 0; row < Math.floor(n / 2); row++ ) {
             let rowInverse = n - 1 - row;
 

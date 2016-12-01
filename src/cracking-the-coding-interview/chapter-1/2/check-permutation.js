@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Given two strings, determine if one is a permuation of the other.
  */

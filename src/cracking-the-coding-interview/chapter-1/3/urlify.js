@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Replace all spaces in a string with '%20'. You are given the true length of
  * the string and there is enough space for the new characters. Use a char array

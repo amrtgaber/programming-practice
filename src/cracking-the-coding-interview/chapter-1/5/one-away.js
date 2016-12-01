@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * There are three types of edits: insert a character, remove a character, or
  * replace a character. Given two strings, write a function to check if they
