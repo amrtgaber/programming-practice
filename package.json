@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git@github.com:amrtgaber/programming-practice.git"
   },
+  "engines": {
+    "node": "6.9.1"
+  },
   "scripts": {
     "cover": "istanbul cover node_modules/mocha/bin/_mocha -- src/**/*.spec.js -c",
     "lint": "eslint src/**/*.js",
