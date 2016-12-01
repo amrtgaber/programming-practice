@@ -12,8 +12,9 @@ class oneAway {
      * check for replacement.
      * Running time: O(n)
      * Space complexity: O(1)
-     * @param  {String} str A string
-     * @return {boolean}    Returns true if string is a permutation of a palindrome, false otherwise
+     * @param  {String} str1 A string
+     * @param  {String} str2 Another string
+     * @return {boolean}     Returns true if str2 is one edit away from str1, false otherwise
      */
     byLength(str1, str2) {
         // for each case there should only be 1 edit to find, if there is more than 1 return false
