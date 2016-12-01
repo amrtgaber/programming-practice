@@ -1,0 +1,6 @@
+language: node
+dist: trusty
+script:
+    - npm install
+    - npm run lint
+    - npm run cover
