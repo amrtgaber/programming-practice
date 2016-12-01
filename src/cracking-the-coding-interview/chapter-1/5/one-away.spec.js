@@ -24,6 +24,7 @@ const notOneAwayStrings = [
     ['abc', 'aaa'],
     ['abc', 'bbb'],
     ['abc', 'a'],
+    ['abcd', 'aef'],
     ['abcd', 'aabd'],
     ['abcd', 'abcdef'],
     ['abcd', 'efbcd'],
