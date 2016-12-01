@@ -5,7 +5,7 @@ const methods = Object.getOwnPropertyNames( Object.getPrototypeOf(zeroMatrix) ).
 
 const tests = require('./zero-matrix-tests');
 
-describe('Chapter 1.6: Zero Matrix', function() {
+describe('Chapter 1.8: Zero Matrix', function() {
     methods.forEach( method => {
         describe(`${method}()`, function() {
             tests.forEach( pair => {
