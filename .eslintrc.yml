@@ -22,7 +22,4 @@ rules:
     semi:
         - warn
         - always
-    strict:
-        - error
-        - global
     valid-jsdoc: off
