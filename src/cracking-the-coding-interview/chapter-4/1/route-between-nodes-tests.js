@@ -48,6 +48,16 @@ for( let i = 0; i < graph4.length - 2; i += 2 ) {
     graph4[i].addEdge( graph4[i + 2] );
 }
 
+// all possible edges
+let graph5 = createGraph(10);
+for( let i = 0; i < graph5.length - 1; i++ ) {
+    for( let j = 0; j < graph5.length - 1; j++ ) {
+        if( j !== i ) {
+            graph5[i].addEdge( graph5[j] );
+        }
+    }
+}
+
 /*
  * export route test cases
  */
@@ -55,7 +65,8 @@ module.exports.route = [
     new Test( graph1[0], graph1[1] ),
     new Test( graph1[0], graph1[9] ),
     new Test( graph2[0], graph2[1] ),
-    new Test( graph4[0], graph4[20] )
+    new Test( graph4[0], graph4[20] ),
+    new Test( graph5[1], graph5[5] )
 ];
 
 /*
@@ -66,5 +77,6 @@ module.exports.noRoute = [
     new Test( graph1[1], graph1[0] ),
     new Test( graph2[0], graph2[2] ),
     new Test( graph3[0], graph3[9] ),
-    new Test( graph4[0], graph4[15] )
+    new Test( graph4[0], graph4[15] ),
+    new Test( graph5[1], graph5[1] )
 ];
