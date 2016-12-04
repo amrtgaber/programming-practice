@@ -1,4 +1,4 @@
-const Node = require('../tree/node.js');
+const Node = require('../tree/node');
 
 /**
  * Given a sorted array with unique integer elements, write an algorithm to create
