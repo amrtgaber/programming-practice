@@ -8,6 +8,22 @@ class Node {
         this.data = data;
         this.children = children;
     }
+
+    get left() {
+        return this.children[0];
+    }
+
+    set left(node) {
+        this.children[0] = node;
+    }
+
+    get right() {
+        return this.children[1];
+    }
+
+    set right(node) {
+        this.children[1] = node;
+    }
 }
 
 module.exports = exports = Node;
