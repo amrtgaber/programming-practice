@@ -7,7 +7,7 @@ class checkBalanced {
      * Running time: O(n)
      * Space complexity: O(1)
      * @param  {Node} root Root node of a binary tree
-     * @return {array}     Returns true if the tree is balanced, false otherwise
+     * @return {boolean}   Returns true if the tree is balanced, false otherwise
      */
     trackMaxAndMin(root) {
         let maxHeight = Number.NEGATIVE_INFINITY;
