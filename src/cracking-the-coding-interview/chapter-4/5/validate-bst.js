@@ -16,7 +16,7 @@ class validateBst {
 
         return traversalHelper(root, root.left) && traversalHelper(root, root.right);
 
-        function traversalHelper( root, node ) {
+        function traversalHelper(root, node) {
             if( !node ) {
                 return true;
             }
