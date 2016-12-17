@@ -31,9 +31,10 @@ class tripleStep {
      * @return {number}       Returns the number of possible ways the child can run up the stairs
      */
     memoize(steps) {
-        return memoizeHelper(steps, []);
+        let cache = [];
+        return memoizeHelper(steps);
 
-        function memoizeHelper(steps, cache) {
+        function memoizeHelper(steps) {
             if( steps < 0 ) {
                 return 0;
             }
@@ -43,7 +44,7 @@ class tripleStep {
             }
 
             if( !cache[steps] ) {
-                cache[steps] = memoizeHelper(steps - 1, cache) + memoizeHelper(steps - 2, cache) + memoizeHelper(steps - 3, cache) ;
+                cache[steps] = memoizeHelper(steps - 1) + memoizeHelper(steps - 2) + memoizeHelper(steps - 3);
             }
 
             return cache[steps];

@@ -16,15 +16,11 @@ const tests = [
     [9, 149],
     [10, 274],
     [11, 504],
-    [12, 927],
-    [30, 53798080]
+    [12, 927]
 ];
 
 describe('Chapter 8.1: Triple Step', function() {
     methods.forEach( method => {
-        // add a little performance measuring
-        console.time(`${method}()`);
-
         describe(`${method}()`, function() {
             tests.forEach( pair => {
                 it(`${pair[0]} steps have ${pair[1]} possible ways`, function() {
@@ -32,7 +28,5 @@ describe('Chapter 8.1: Triple Step', function() {
                 });
             });
         });
-
-        console.timeEnd(`${method}()`);
     });
 });
